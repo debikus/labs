@@ -1,0 +1,26 @@
+.first {
+    margin-bottom: 20px;
+}
+
+#phone-select {
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+
+#model-select {
+    margin-bottom: 5px;
+    margin-left: 53px;
+}
+
+#black-white {
+    margin-bottom: 10px;
+}
+
+#submit {
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+option[default] {
+    display: none;
+}

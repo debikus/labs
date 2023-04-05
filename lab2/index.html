@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lab2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="result.html">
+        <fieldset>
+            <legend>Я шукаю телефон: </legend>
+            <div class="first">
+                <label for="phone-select">фірми: </label>
+                <select id="phone-select" name="phone">
+                    <option value="" default disabled selected>Виберіть фірму-виробника:</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Samsung">Samsung</option>
+                    <option value="Huawei">Huawei</option>
+                </select>
+                <br>
+                <label for="model-select">модель: </label>
+                <select id="model-select" name="model">
+                    <option value="" default disabled selected>Оберіть модель телефону:</option>
+                    <option value="S720">S720</option>
+                    <option value="B90">B90</option>
+                    <option value="G20">G20</option>
+                </select>
+                <br>
+
+                <input type="radio" id="colored" name="display" value="colored">
+                <label for="colored">з кольоровим дисплеєм</label> <br>
+
+                <input type="radio" id="black-white" name="display" value="black-white" checked>
+                <label for="black-white">з чорно-білим дисплеєм</label><br>
+
+                <label for="money">з ціною не вищою за: </label>
+                <input type="number" id="money" name="money">
+                <select id="сurrency-select" name="currency">
+                    <option value="EUR">євро</option>
+                    <option value="USD">долларів</option>
+                    <option value="UAH">гривень</option>
+                </select>
+            </div>
+
+            <div class="second">
+                <label>Додаткові вимоги: </label><br>
+                <input type="checkbox" name="elem" value="1"> Вбудована камера<br>
+                <input type="checkbox" name="elem" value="2"> Диктофон<br>
+                <input type="checkbox" name="elem" value="3"> Java-ігри<br>
+                <input type="checkbox" name="elem" value="4"> Органайзер<br>
+                <input type="checkbox" name="elem" value="5"> Поліфонічні мелодії<br>
+
+                <label for="email-adress">Моя електронна адреса </label>
+                <input type="email" name="email-adress"> <br>
+                <input type="submit" id="submit" value="Відправити запит">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
