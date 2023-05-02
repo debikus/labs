@@ -1,0 +1,72 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+
+form button {
+    background-color: #3F51B5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: blue;
+}
+
+.testimonials {
+    margin-top: 40px;
+}
+
+.testimonial {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.testimonial p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.about-us {
+    margin-top: 40px;
+}
+
+.about-us h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-us p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
