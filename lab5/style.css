@@ -1,0 +1,101 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+
+form button {
+    background-color: #3F51B5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: blue;
+}
+
+.testimonials {
+    margin-top: 40px;
+}
+
+.testimonial {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.testimonial p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.clients-img {
+    width: 150px;
+}
+
+.about-us {
+    margin-top: 40px;
+}
+
+.about-us h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-us p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    max-height: 70px;
+}
+
+.site-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #3F51B5;
+    margin: 0;
+}
